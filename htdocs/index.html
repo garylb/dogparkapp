@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Dog Park App</title>
+    <script src="build/react.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/mainDisplay.css">
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/jsx" src="/js/mainDisplay.js"></script>
+    <script type="text/jsx">
+      React.render(
+        <ListDisplay source="/api/dogParks" />,
+        document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>

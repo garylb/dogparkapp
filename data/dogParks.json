@@ -1,0 +1,46 @@
+[
+{
+	"parkName":"Wagging Tail",
+	"lat":"32.970488",
+	"long":"-96.808134",
+	"address": "5841 Keller Springs Road, Dallas, TX 75248",
+	"hours":[
+		{"open":"dawn", "close":"dusk"},
+		{"state":"maintenance"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"}
+	],
+	"phone":"214-670-1589",
+	"website":"waggingtaildogpark.org",
+	"blurb":"Opened on December 12, 2009, Wagging Tail Dog Park is located at 5841 Keller Springs Road. The magnificant 7 acre park is the first City of Dallas specifically designed dog park. The park features small and large dog play areas, a 1/4 mile walking trail, a deck overlooking White Rock Creek, both people and doggie drinking fountains and much more. The grounds are landscaped with native and hardy plantings and stone decking and seating. In keeping with the city's goals of being energy efficient the sprinkler system is solar powered. You'll hardly know you're in the middle of Far North Dallas. The park is open from sunup to sundown Tuesday-Sunday. The park is closed on Monday for maintenance. If Monday is an official City of Dallas holiday the park will be open. The park is also closed during inclement weather. This doesn't only mean inclement only for people and dogs, it means inclement for the grass and grounds. If the weather is inappropriate for the grounds the park will be closed. You can obtain latest park information and closings on the park hotline at 214-670-1589.",
+	"photos":[
+		"images/waggingTailDogPark.jpeg"
+	]
+},
+{
+	"parkName":"NorthBark",
+	"lat":"33.010993",
+	"long":"-96.8200574",
+	"address": "4899 Gramercy Oaks Dr, Dallas, TX 75287",
+	"hours":[
+		{"state":"maintenance"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"},
+		{"open":"dawn", "close":"dusk"}
+	],
+	"phone":"214-671-8001",
+	"website":"www.dallasparks.org/Facilities/Facility/Details/NorthBark-Dog-Park-359",
+	"blurb":"NorthBark Dog Park is a 22.3 acre \"off-leash\" dog park, in far north Dallas. It is located near the North Dallas Tollway and the President George Bush Tollway. This dog park offers everything a pooch could want; including trails, swale and an expansive lawn area. Pamper your pet on the unique \"dog beach\" adjacent to the doggy lake, frolic on the 6 foot wide loop trail, lounge under the pavilion, or cool off in the doggy shower surrounded by beautiful metal fencing with custom cut dog silhouettes and elegant flagstone structures.  Closed on rainy days and on Tuesdays for maintenance.  Fun Fact: This unique K-9 haven is the largest of its kind in North Texas. It features a doggy lake, showers and pavilion.",
+	"photos":[
+		"images/northBarkDogPark.jpeg"
+	]
+}
+]
