@@ -1,3 +1,73 @@
+html {
+	background: gray;
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	padding:0;	
+}
+
+h1 {
+	margin:0;
+	padding:0;	
+}
+
+#appContainer {
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+#contentsContainer {
+	height: 95%;
+	width: 100%;
+	position: relative;
+	top:0;
+}
+
+.appHeader {
+	width: 100%;
+	/*padding:0.25em 0;*/
+	height:48px;
+	margin:0;
+	background-color: black;
+	color: #aaaaaa;
+	text-align: center;
+}
+
+.stateIcon {
+	float: left;
+}
+
+.iconHolder {
+	height: 48px;
+	width: 48px;
+	background-color: white;
+	border-radius: 100%;
+	padding:0;
+}
+
+.iconHolder .icon {
+	padding:0;
+}
+
+.md-48 {
+	font-size: 48px !important;
+}
+
+.appHeader h1 {
+	padding:0.22em 0;
+}
+
+.searchMapContainer {
+	max-width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
 .listItem {
 	height: 300px;
 	width: 100%;
