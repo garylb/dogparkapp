@@ -28,7 +28,7 @@ h1 {
 	top:0;
 }
 
-.appHeader {
+header[role='banner'] {
 	width: 100%;
 	/*padding:0.25em 0;*/
 	height:48px;
@@ -58,7 +58,7 @@ h1 {
 	font-size: 48px !important;
 }
 
-.appHeader h1 {
+header[role='banner'] h1 {
 	padding:0.22em 0;
 }
 
@@ -77,14 +77,23 @@ h1 {
 }
 
 .listItem h2 {
-	height: 30px;
+	height: 2em;
 	background: black;
 	width: 100%;
 	color: white;
 }
 
+.rgba .listItem .address {
+	background-color: rgba(200, 200, 200, 0.5);
+}
+
+.listItem .address {
+	background-color: #aaaaaa;
+}
+
 .listItem img {
 	max-height: 96%;
 	position: absolute;
-	top:30px;
+	top:2em;
+	z-index: -1;
 }

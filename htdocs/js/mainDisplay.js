@@ -26,10 +26,12 @@ var requestData = function(url, onSuccess) {
 
 var ListDisplayItem = React.createClass({
 	render: function() {
+        var addressLink = 'http://maps.google.com/?saddr=Current+Location&daddr='+this.props.value.lat + ',' + this.props.value.long;
 		return (
-			<div className="listItem">
+			<div className='listItem'>
+                <image src={this.props.value.photos[0]} />
                 <h2>{this.props.num, '. ', this.props.value.parkName}</h2>
-				<image src={this.props.value.photos[0]} />
+                <p className='address'><a target='new' href={addressLink}>{this.props.value.address}</a></p>
 			</div>
 		);
 	}
@@ -65,10 +67,12 @@ var ActionIcon = React.createClass({
 var AppHeader = React.createClass({
     render: function() {
         return (
+                <header role='banner'>
                 <div className='appHeader'>
                     <ActionIcon iconType={this.props.toggleDisplay} actionClass='stateIcon' action={this.props.toggleAction} />
                     <h1>{this.props.title}</h1>
                 </div>
+                </header>
             );
     }
 });
